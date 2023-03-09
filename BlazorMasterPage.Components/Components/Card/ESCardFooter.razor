@@ -1,0 +1,8 @@
+﻿@namespace BlazorMasterPage.Components.Components
+@inherits ESComponentBase
+
+<CascadingValue Value=this>
+    <div id="@ElementId" class="@ClassNames" style="@StyleNames" @attributes="@Attributes">
+        @ChildContent
+    </div>
+</CascadingValue>
