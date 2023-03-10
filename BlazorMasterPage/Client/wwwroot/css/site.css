@@ -18089,6 +18089,22 @@ readers do not read off random characters that represent icons */
 @font-face {
   font-family: "Font Awesome 5 Pro";
   font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fa-regular-400.eot");
+  src: url("../fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-regular-400.woff2") format("woff2"), url("../fonts/fa-regular-400.woff") format("woff"), url("../fonts/fa-regular-400.ttf") format("truetype"), url("../fonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+.far {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 400;
+}
+
+/*!
+ * Font Awesome Pro 5.2.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Commercial License)
+ */
+@font-face {
+  font-family: "Font Awesome 5 Pro";
+  font-style: normal;
   font-weight: 900;
   src: url("../fonts/fa-solid-900.eot");
   src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.ttf") format("truetype"), url("../fonts/fa-solid-900.svg#fontawesome") format("svg");
@@ -18534,6 +18550,7 @@ $font-family-base: 'robotoregular';
 .es-sidebar ul.list-group > li.list-group-item > a:after {
   content: "\f0da";
   font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
   font-size: 0.9rem;
   width: 10px;
   color: #fff;
@@ -18832,4 +18849,76 @@ a, .btn-link {
 
 .blazor-error-boundary::after {
   content: "An error has occurred.";
+}
+
+.fa-external-link-alt:before {
+  content: "\f08e";
+  color: #00bbfe;
+  font-size: 1.25em;
+}
+
+.fa-chart-bar:before {
+  content: "\f080";
+  color: #00bbfe;
+  font-size: 1.25em;
+}
+
+.fa-dice-d6:before {
+  content: "\f6d1";
+  color: #00bbfe;
+  font-size: 1.25em;
+}
+
+.fa-sight-out-alt:before {
+  content: "\f2f5";
+  color: #ffa901;
+  font-size: 1em;
+}
+
+.fa-sliders-h:before {
+  content: "\f1de";
+  color: #ffa901;
+  font-size: 1em;
+}
+
+.fa-clock:before {
+  content: "\f017";
+  color: #00bbfe;
+  font-size: 1em;
+}
+
+.fa-calendar-alt:before {
+  content: "\f073";
+  color: #ffa901;
+  font-size: 1em;
+}
+
+.fa-chart-bar.xfDashboard:before {
+  content: "\f080";
+  color: #00bbfe;
+  font-size: 0.95em;
+}
+
+.es-CubeView:before {
+  content: "\e902";
+  color: #00bbfe;
+  font-size: 1.25em;
+}
+
+.es-Dashboard:before {
+  content: "\e903";
+  color: #00bbfe;
+  font-size: 1.25em;
+}
+
+.es-Documents:before {
+  content: "\e90a";
+  color: #00bbfe;
+  font-size: 1.25em;
+}
+
+.es-Workflow:before {
+  content: "\e908";
+  color: #00bbfe;
+  font-size: 1.25em;
 }
