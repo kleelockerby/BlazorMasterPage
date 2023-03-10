@@ -1,17 +1,27 @@
 ﻿@inherits LayoutComponentBase
 
+
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
+    <ESSidebar>
+        <ESSidebarContent Title="Main Menu">
+            <ESSidebarItem Title="Workflow" IconClassNames="es es-Workflow" NavigateTo="cardpage" SidebarItemType="ESSidebarItemType.Workflow"></ESSidebarItem>
+            <ESSidebarItem Title="Cube Views" IconClassNames="es es-CubeView" NavigateTo="counter" SidebarItemType="ESSidebarItemType.CubeView"></ESSidebarItem>
+            <ESSidebarItem Title="Dashboards" IconClassNames="es es-Dashboard" NavigateTo="cardpage" SidebarItemType="ESSidebarItemType.Dashboard"></ESSidebarItem>
+            <ESSidebarItem Title="Documents" IconClassNames="es es-Documents" NavigateTo="cardpage" SidebarItemType="ESSidebarItemType.Document"></ESSidebarItem>
+        </ESSidebarContent>
+    </ESSidebar>
 
-    <main>
+    <div class="main">
         <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+            <a href="http://blazor.net" target="_blank" class="ml-md-auto">About</a>
         </div>
-
-        <article class="content px-4">
+        <div class="content px-4">
             @Body
-        </article>
-    </main>
+        </div>
+    </div>
 </div>
+
+@*fa fa-external-link-alt essidebar
+far fa-dice-d6 essidebar
+far fa-chart-bar essidebar
+xf xf-Documents essidebar*@

@@ -1,0 +1,19 @@
+﻿@inherits ESComponentBase
+@namespace BlazorMasterPage.Client
+
+<li class="@ClassNames">
+    <ESLink Title="@Title" To="javascript:void(0);" Clicked="@ESLink_Clicked" @attributes="@Attributes"><i class="@IconClassNames"></i><span>@Title</span></ESLink>
+    <div class="sub-container">
+        <ul class="@ULClassNames">
+            @if (this.ItemsData?.Count > 0)
+            {
+                foreach (SidebarItemData itemData in this.ItemsData)
+                {
+                    <ESSidebarSubItem Id="@itemData?.Id" Title="@itemData?.Title" IconClassNames="@itemData?.IconClassNames" AnchorClassNames="@itemData?.AnchorClassNames" SidebarItemType=@itemData.SidebarItemType></ESSidebarSubItem>
+                }
+            }
+        </ul>
+    </div>
+</li>
+
+

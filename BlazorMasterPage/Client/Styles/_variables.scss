@@ -1,0 +1,229 @@
+﻿
+/* ---- Colors ---- */
+$color-base: rgb(66, 66, 66);
+$color-background-base: #f3f2f2;
+
+$color-primary1: #1e1e2d;     
+$color-primary2:  #262636;
+$color-primary3:  #4e97c5;
+$color-primary4:   #00bbfe;
+$color-primary4A:  rgba(0, 186, 254, 0.4);
+$color-primary5: #9d9eb2;
+
+$color-second1:    #ffa901;
+$color-second2:   #fe7f26;
+$color-second3: #d75d1a;
+$color-second4:   #a75e33;
+
+$grey1:    #f3f2f2;
+$grey2: #d9d9dc;
+$grey3:  #6f7199;
+
+/* ---- Fonts ---- */
+$font-size-base: 1rem;
+$font-line-height-base: 1.5rem;
+$font-weight-base: 100;
+$font-family-base:  'open_sansregular';
+$font-color-base: $color-base;
+
+
+/* ---- Sidebar ---- */
+$sidebar-width: 19.0rem;
+$sidebar-background-color: $color-primary1;
+$sidebar-color:  $color-primary5;
+$sidebar-color-active: $grey2;
+$sidebar-shadow-color: rgba(20, 20, 20, .15);
+$sidebar-font-family: 'poppinsregular';
+$sidebar-active-font-family: 'poppinsmedium';
+$sidebar-font-family-variant: small-caps;
+
+$sidebar-header-height: 50px;
+$sidebar-header-color: #FFF;
+$sidebar-header-background-color: $color-primary2;
+$sidebar-header-font-size: 1.2rem;
+
+$sidebar-sub-background-color: $color-primary2;
+$sidebar-sub-header-font-size: 0.75rem;
+$sidebar-sub-header-font-color: $grey2;
+
+
+
+
+/* ---- Base Colors ---- */
+/*$color-base: rgb(66, 66, 66);
+$color-background-base: #f3f2f2;
+
+$color-primary1: #1e1e2d;*/ /*  #131e26;  #262636;*/
+/*$color-primary2: #262636;
+$color-primary3: #4e97c5;
+$color-primary4: #00bbfe;
+$color-primary4A: rgba(0, 186, 254, 0.4);
+$color-primary5: #9d9eb2;
+
+$color-second1: #ffa901;
+$color-second2: #fe7f26;
+$color-second3: #d75d1a;
+$color-second4: #a75e33;
+
+$grey1: #f3f2f2;
+$grey2: #d9d9dc;
+$grey3: #6f7199;*/
+
+
+/* ---- Fonts ---- */
+/*$font-size-base: 1rem;
+$font-line-height-base: 1.5rem;
+$font-weight-base: 100;
+$font-family-base: 'open_sansregular';
+$font-color-base: $color-base;*/
+
+/* ---- Elements ---- */
+/*$anchor-color: $color-primary3;
+$anchor-color-hover: #87bfe2;*/
+
+/* ---- Sidebar ---- */
+/*$sidebar-width: 19.0rem;
+$sidebar-font-family: 'poppinsregular';
+$sidebar-active-font-family: 'poppinsmedium';
+$sidebar-color: $color-primary5;
+$sidebar-color-active: $grey2;
+$sidebar-header-height: 50px;
+$sidebar-header-color: #FFF;
+$sidebar-background-color: $color-primary1;
+$sidebar-sub-background-color: $color-primary2;
+$sidebar-header-background-color: $color-primary2;
+$sidebar-shadow-color: rgba(20, 20, 20, .15);
+$sidebar-header-font-size: 1.2rem;
+$sidebar-sub-header-font-size: 0.75rem;
+$sidebar-sub-header-font-color: $grey2;
+$sidebar-font-family-variant: small-caps;*/
+
+/* ---- Header ---- */
+/*$header-background-color: transparent;
+$header-color: $color-primary3;
+$header-border-color: #eaeaea;
+$header-border-bottom-color: $sidebar-shadow-color;
+$header-icon-color: rgb(136, 136, 136);
+$header-icons-right-margin-sm: 0.25rem;
+$header-icons-right-margin-lg: 2.5rem;
+$header-profile-font-size: 0.95rem;
+$header-profile-font-weight: 400;
+$header-profile-padding-right-lg: 2.2rem;
+$header-profile-padding-right-sm: 0.75rem;
+$header-text-align: center;
+$header-text-margin: 0;*/
+
+/* ---- Button ---- */
+/*$btn-info-background-color: $color-second2;
+$btn-info-border-color: $color-second1;
+$button-gradient-top: $color-second2;
+$button-gradient-bottom: $color-second3;*/
+
+
+
+
+
+
+
+
+
+/*
+$blueMain: #101e2e;
+$blueMedium: #23425c;
+$blueLight: #2b6386;
+$blueCyan: #2fb3f3;
+$blueCyanLight: #70c6f1;
+$blueDark: #0e1922;
+$orangeMain: #e08e5e;
+$orangeDark: #c97a4c;
+$greenMain: #739500;
+$anchorColor: $blueLight;
+
+$outlineColor: #1a78bd;
+$listItemThumbColor: $outlineColor;
+
+$buttonGradientTop: $blueCyan;
+$buttonGradientBottom: $blueCyan;
+$baseFontColor: rgb(66, 66, 66);*/
+/* ---- Sidebar ---- */
+
+/*$SidebarGradientStartColor: #305a72;
+$SidebarGradientEndColor: #0d364c;
+
+$sidebarFontSize: 1.0rem;
+$sidebarWidth: 78%;*/ /* 310px */
+/*$sidebarCollapsedWidth: 2.5em;
+$sidebarTextColor: rgba(255, 255, 255, 0.9);
+$sidebarFlyoutTextColor: rgba(255, 255, 255, 0.9);
+$sidebarFlyoutIndentTextColor: $orangeMain;
+$SidebarBGColor: $blueMain;
+$SidebarFlyoutBGColor: $blueLight;
+$sidebarHeaderDisplay: table-cell;
+$sidebarheaderHeight: 3rem;
+$sidebarHeaderBGColor: $blueLight;
+$sidebarHeaderColor: #FFF;
+$sidebarHeaderImage: none;
+$sidebarDisplaySubHeader: block;
+
+$sidebarItemTopBtmPadding: 1.05em;
+$sidebarItemLeftRightPadding: 1em;
+$sidebarIconUpDownFontSize: 0.90em;
+$sidebarFlyoutItemPaddingTopBtm: 0.5em;
+$sidebarFlyoutItemPaddingLeftRight: 1.0em;
+$sidebarFlyoutItemIndent: 3.4em;
+$sidebarFlyoutItemFontSize: 1.0em;
+$sidebarFlyoutIconFontSize: 0.55em;
+
+$scrollbarBGColor: $blueMain;
+$scrollbarThumbColor: $orangeMain;
+
+$headerTextColor: $blueLight;
+$headerBGColor: #f8f9fa;
+$headerImage: none;
+$headerHeight: 3rem;
+$navbarPaddingTopBtm: 0;
+$navbarPaddingLeftRight: 1rem;
+$navbarIconsRightMargin: 2.5rem;
+$navbarUserProfileFontSize: 0.95rem;
+$navbarUserProfilePaddingRight: 1.2rem;
+$navbarUserProfileColor: $blueLight;
+$navbarUserProfileFontWeight: 500;
+$headerIconColor: rgb(136, 136, 136);
+$headerTextAlign: center;
+$headerTextMargin: 0;
+
+$btnInfoBackgroundColor: $orangeMain;
+$btnInfoBorderColor: $orangeDark;
+
+$tabBorderTopColor: $blueLight;
+$tabBorderBottomColor: #FFF;
+$tabBorderWidth: 1px;
+$tabBorderRadius: 4px;
+$tabActiveItemColor: #FFF;
+$tabItemColor: $blueCyan;
+$tabBackgroundColor: $blueLight;
+$tabItemMarginLeft: .3125rem;
+
+$font-size-base: 1rem;
+$font-weight-base: 100;
+$font-family-base: 'robotoregular';
+
+$h3TextColor: $blueLight;
+$h4TextColor: $blueCyan;
+$paraTextFontSize: 1.0rem;
+
+$cardBorderRadius: .425rem;
+$cardTextColor: #949494;
+$cardHeaderFontSize: 1.25rem;
+$cardHeaderFontColor: $blueLight;
+$cardTopBtmBorderColor: #FFF;
+$cardHeaderBGColor: #FFF;
+$cardBodyColor: rgb(58, 58, 58);
+$cardBodyBGColor: #FFF;
+$cardFooterBGColor: #FFF;
+
+$font-size-base: 1rem;
+$font-weight-base: 100;
+$font-family-base: 'robotoregular';
+
+*/

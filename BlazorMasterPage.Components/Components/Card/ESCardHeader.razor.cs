@@ -6,11 +6,11 @@ namespace BlazorMasterPage.Components.Components
 {
     public partial class ESCardHeader : ESComponentBase
     {
-        [Parameter] public string Title { get; set; }
+        [Parameter] public string? Title { get; set; }
         [Parameter] public bool ShowBorder { get; set; }
-        [Parameter] public RenderFragment ChildContent { get; set; }
+        [Parameter] public RenderFragment? ChildContent { get; set; }
 
-        protected ClassBuilder HeaderClassBuilder { get; private set; }
+        protected ClassBuilder? HeaderClassBuilder { get; private set; }
         protected string HeaderClassNames => HeaderClassBuilder.Class;
 
         public ESCardHeader()
@@ -20,15 +20,17 @@ namespace BlazorMasterPage.Components.Components
 
         protected override void BuildClasses(ClassBuilder builder)
         {
-            builder.Append(ClassProvider.CardHeader());
-            base.BuildClasses(builder);
+            if (ClassProvider != null)
+            {
+                builder.Append(ClassProvider.CardHeader());
+                base.BuildClasses(builder); 
+            }
         }
 
         private void BuildHeaderClasses(ClassBuilder builder)
         {
-            builder.Append("xf-header-text");
-            if (ShowBorder)
-                builder.Append("xf-header-border");
+            builder.Append("es-header-text");
+            builder.Append("es-header-border", ShowBorder);
         }
     }
 }
